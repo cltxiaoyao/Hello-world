@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataclean xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <task batchNum="1" dbUser="front_user">
+        <table tableName="DE_PGW_ORDER" cleanType="2" expDate="3" dateUnit="M" partitionPrefix="P_[YYYYMM]" />
+		<table tableName="DE_PGW_PAYORDER" cleanType="2" expDate="3" dateUnit="M" partitionPrefix="P_[YYYYMM]" />
+		<table tableName="DE_PGW_TRADEORDER" cleanType="2" expDate="3" dateUnit="M" partitionPrefix="P_[YYYYMM]" />
+		<table tableName="DE_PGW_TRADERESULT" cleanType="2" expDate="3" dateUnit="M" partitionPrefix="P_[YYYYMM]" />
+    </task>
+</dataclean>
